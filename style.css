@@ -5,11 +5,21 @@
     font-family: 'Space Mono', monospace;
 
  }
+ /* share style*/
+ .main-btn{
+    background-color:  rgb(74, 85, 162);
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    padding: 3% 5%;
+    border: none;
+
+ }
 
 
  /*nav bar*/
  nav{
-    max-width: 1400px;
+    max-width: 1600px;
     height: 10%;
     margin: 0% auto;
     background-color: #b7b7ff;
@@ -50,4 +60,32 @@
     padding-left: 2%;
 
     
+ }
+ /*banner section*/
+ .banner{
+    max-width: 1600px;
+    margin: 0% auto;
+    margin-top: 5%;
+ }
+ .banner-container{
+    display: flex;
+    justify-content: space-between;
+ }
+ .banner-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #3A3A3A;
+
+ }
+ .banner-story{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #3A3A3A;
+ }
+ .box-2 >img{
+    width: 440px;
+   
+ }
+ .box-1{
+    width: 580px;
  }
