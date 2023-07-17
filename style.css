@@ -13,7 +13,12 @@
     color: white;
     padding: 3% 5%;
     border: none;
+    transition: width 1s;
 
+ }
+ .main-btn:hover{
+    width: 250px;
+    border-radius: 10px;
  }
 
 
@@ -84,7 +89,11 @@
  }
  .box-2 >img{
     width: 440px;
+    transition: width 1s;
    
+ }
+ .box-2 >img:hover{
+    width: 500px;
  }
  .box-1{
     width: 580px;
