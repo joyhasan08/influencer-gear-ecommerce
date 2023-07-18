@@ -5,6 +5,9 @@
     font-family: 'Space Mono', monospace;
 
  }
+ body{
+   
+ }
  /* share style*/
  .main-btn{
     background-color:  rgb(74, 85, 162);
@@ -221,7 +224,7 @@
 /* footer */
 
 .footer-div{
-   max-width: 1600px;
+   max-width: 100%;
    background-color: rgb(74, 85, 162);
    display: flex;
    margin: 0% auto;
