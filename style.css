@@ -106,14 +106,18 @@
  }
  .sponsor-container{
    display: flex;
-   border: 1px #3A3A3A solid ;
+   border: 0px #3A3A3A solid ;
    justify-content: space-evenly;
    padding: 2rem 3rem;
    margin-top: 3rem;
    align-items: center;
+  
  }
- .sponsor-container:hover{
-
+ .sponsor-container.img{
+   
+ }
+ .sponsor-container.img:hover{
+    
  }
  .sponsor-icon{
 
@@ -178,8 +182,23 @@
    padding-top: 0%;
    margin-top: -1%;
    border: rgb(197, 223, 248) solid;
-
 }
 .shop-card>p{
    color: rgb(74, 85, 162);
+}
+/*  <!--feature section--> */
+.feature{
+   max-width: 1600px;
+   margin: 0% auto;
+   border: #1717ad solid;
+}
+.feature-container{
+   display: flex;
+   justify-content: space-between;
+}
+.feature-poster>img{
+
+}
+.feature-content{
+   
 }
