@@ -118,4 +118,19 @@
  .sponsor-icon{
 
  }
- 
+
+ /*Popular-Collection section*/
+ .Popular-Collection{
+   max-width: 1600px;
+   margin: 0% auto;
+ }
+.popular-sec-title{
+   font-size: 2.1rem;
+   font-weight: 600;
+   margin-top: 7rem;
+   margin-bottom: 2rem;
+}
+.Popular-Collection-container{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+}
