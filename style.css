@@ -138,7 +138,7 @@
    gap: 0%;
    overflow-y: auto;
    border-left: #b7b7ff solid;
-   border-bottom: #b7b7ff solid ; 
+   /*border-bottom: #b7b7ff solid ; */
 }
 .shop-card{
    width: fit-content;
@@ -186,19 +186,31 @@
 .shop-card>p{
    color: rgb(74, 85, 162);
 }
+
+
+
 /*  <!--feature section--> */
 .feature{
    max-width: 1600px;
    margin: 0% auto;
-   border: #1717ad solid;
+  /* border: #1717ad solid;*/
 }
 .feature-container{
    display: flex;
    justify-content: space-between;
+   margin-top: 3rem;
 }
 .feature-poster>img{
-
+      width: 700px;
+      margin: 0% auto;
+      padding: 10%;
+}
+.feature-poster{
+  /* border: gold solid;*/
+   width: 50%;
 }
 .feature-content{
-   
+ /*  border: red solid; */
+   width: 50%;
+   padding: 5%;
 }
